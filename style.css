@@ -1,0 +1,14 @@
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #f5d9d5;
+
+}
+
+nav{
+    text-transform: uppercase;
+}
+
+button.navbar-toggler:focus {
+    outline: 0;
+}
