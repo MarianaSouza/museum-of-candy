@@ -5,6 +5,21 @@ body{
 
 }
 
+#headingGroup{
+    margin-top: 4rem;
+}
+
+#headingGroup h3{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+#headingGroup span{
+    color: #ea1c2c;
+}
+
 nav{
     text-transform: uppercase;
 }
@@ -32,4 +47,10 @@ button.navbar-toggler:focus {
 
 #mainNavbar .nav-link:hover{
     color: #ea1c2c;
+}
+
+@media (max-width:1280px){
+    #headingGroup h3{
+        font-size: 1.8rem;
+    }
 }
