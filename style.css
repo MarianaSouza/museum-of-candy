@@ -49,8 +49,42 @@ button.navbar-toggler:focus {
     color: #ea1c2c;
 }
 
+h4{
+    text-transform: uppercase;
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+p.lead{
+    color: #f498b8;
+    font-weight: 100;
+    line-height: 2;
+}
+
+
+
+@media (min-width:992px){
+    .my-sections{
+        margin-bottom: 100px;
+    }
+}
+
 @media (max-width:1280px){
     #headingGroup h3{
         font-size: 1.8rem;
+    }
+
+    .lolli-icon{
+        display:none;
+    }
+
+    
+}
+
+@media (max-width:991px){
+    .content{
+        margin-top: 70px;
+        margin-bottom: 70px;
     }
 }
